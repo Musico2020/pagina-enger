@@ -1,0 +1,68 @@
+body {
+  background: rgb(222, 220, 230);
+  background: radial-gradient(
+    circle,
+    rgba(222, 220, 230, 1) 0%,
+    rgba(230, 227, 245, 1) 38%
+  );
+  display: flex;
+  flex-direction: column;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.titulo {
+  color: rgb(9, 39, 9);
+  padding-right: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.lista a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.lista :hover {
+  background-color: rgba(3, 243, 151, 0.836);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-right: 100px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.productos {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.img1 {
+  width: 200px;
+  height: 200px;
+}
+
+.productos-dos {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  margin-left: 50px;
+}
